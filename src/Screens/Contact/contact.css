@@ -1,0 +1,100 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#site-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#page-content1{
+  flex: 1 0 auto;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.73) 0%, rgba(0, 0, 0, 0.19) 49.2%, rgba(0, 0, 0, 0.73) 93.22%);
+}
+
+.btn8{
+  text-align: center !important;
+  position: absolute;
+  margin-left: 13%;
+}
+
+
+@media screen and (max-width: 560px) {
+  form{
+    width: 80%;
+    margin-bottom: 30% !important;
+    margin: 0 auto; 
+  }
+  .contact-head{
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .contact-head1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 18px;
+  }
+  .line1{
+    background-color: white;
+    width: 80%;
+  }
+  .contact-head2{
+    color: white;
+    font-weight: normal;
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  form{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  .contact-head{
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .contact-head1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 18px;
+  }
+  .line1{
+    background-color: white;
+    width: 80%;
+  }
+  .contact-head2{
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  form{
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  form{
+    width: 600px;
+  }
+  .contact-head1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 18px;
+  }
+}

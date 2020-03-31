@@ -1,0 +1,99 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#site-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#page-content{
+  flex: 1 0 auto;
+}
+
+@media screen and (max-width: 560px) {
+  .text-content{
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .about-head{
+    font-family: Poppins;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .about-head2{
+    font-family: Poppins;
+    font-size: 22px;
+    margin-top: 4%;
+  }
+  .about-head1{
+    font-family: Poppins;
+    font-size: 22px;
+    margin-bottom: 4%;
+  }
+  .aboutus-text{
+    font-family: Poppins;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .text-content{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    background-image: url("../../Images/Rectangle5.png");
+    background-repeat: no-repeat;
+  }
+  .about-head{
+    font-family: Poppins;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .about-head2{
+    font-family: Poppins;
+    font-size: 22px;
+    margin-top: 4%;
+  }
+  .about-head1{
+    font-family: Poppins;
+    font-size: 22px;
+    margin-bottom: 4%;
+  }
+  .aboutus-text{
+    font-family: Poppins;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-content{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .about-head{
+    font-family: Poppins;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .about-head2{
+    font-family: Poppins;
+    font-size: 25px;
+    margin-top: 4%;
+  }
+  .about-head1{
+    font-family: Poppins;
+    font-size: 25px;
+    margin-bottom: 4%;
+  }
+  .aboutus-text{
+    font-family: Poppins;
+    font-size: 20px;
+  }
+}

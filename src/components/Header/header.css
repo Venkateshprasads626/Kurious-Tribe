@@ -1,0 +1,101 @@
+.navbar li a{
+    font-size: 20px;
+    color: white !important;
+}
+.navbar li a:hover{
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar{
+  background: #040707;
+}
+.navbar {
+    min-height: 90px;
+  }
+  .navbar-brand {
+    padding: 0 15px;
+    height: 90px;
+    line-height: 90px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+  .kuriologo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 80px;
+  }
+  .navbar-nav li.active a{
+    color: white !important;
+  }
+
+
+  @media screen and (max-width: 560px) {
+ 
+    .navbar {
+        min-height: 90px;
+      }
+      .navbar-brand {
+        padding: 0 15px;
+        height: 90px;
+        line-height: 90px;
+      }
+      
+      .navbar-toggle {
+        /* (80px - button height 34px) / 2 = 23px */
+        margin-top: 23px;
+        padding: 9px 10px !important;
+      }
+  .kuriologo{
+    width: 100px;
+    height: 100px;
+    margin-left: 0%;
+    margin-top: -1%;
+  }
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .kuriologo{
+        width: 100px;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: -1%;
+      }    
+  
+  }
+
+  @media screen and (min-width: 992px) {
+    .kuriologo{
+        width: 170px;
+        height: 170px;
+        margin-left: 3%;
+        margin-top: 5px;
+      }  
+    .navbar li a{
+        font-size: 18px;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+    .navbar {
+        min-height: 170px;
+      }
+      .navbar-brand {
+        padding: 0 15px;
+        height: 170px;
+        line-height: 90px;
+      }
+  }
+  @media screen and (min-width: 1200px) {
+   
+      .navbar li a{
+        font-size: 20px;
+    }
+  }

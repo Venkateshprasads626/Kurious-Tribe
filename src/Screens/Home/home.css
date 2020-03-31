@@ -1,0 +1,118 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#site-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#page-content{
+  flex: 1 0 auto;
+}
+
+.card-title{
+  font-weight: bold;
+}
+@media screen and (max-width: 560px) {
+  .about-background{
+    width: 100%;
+    height: 400px;
+    background-image: url("../../Images/Rectangle4.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+  }
+  .about-text{
+    margin: 0 auto;
+    font-family: Poppins;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 8.5%;
+  }
+  .service-section{
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .about-background{
+    width: 100%;
+    height: 400px;
+    background-image: url("../../Images/Rectangle4.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+  }
+  .about-text{
+    width: 600px;
+    margin: 0 auto;
+    font-family: Poppins;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 8.5%;
+  }
+  .instagram-section{
+    margin: 0 auto;
+  }
+  .service-section{
+    margin-bottom: 5%;
+  }
+  .cards{
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .card{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-text{
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-text{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Poppins;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 4.5%;
+  }
+  .cards{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  .service-section{
+    margin-top: 5%;
+  }
+}

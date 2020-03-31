@@ -1,0 +1,414 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#site-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#page-content{
+  flex: 1 0 auto;
+}
+
+.banner1{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 560px) {
+  .fashion-page{
+    width: 100%;
+    height: 450px;
+  }
+  .fashion-content{
+    height: 420px;
+    position: absolute;
+    margin-top: 3.3%;
+  }
+  .vector1{
+    margin-top: 1%;
+    float: left;
+  }
+  .fashion-text{
+    width: 330px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 10%;
+  }
+  .f-text{
+    text-align: end;
+    font-family: Poppins;
+    font-size: 12px;
+  } 
+  .f-head{
+    font-family: Poppins;
+    text-align: end;
+    margin-bottom: 6%;
+    font-size: 25px;
+  }
+  .section1{
+    margin-top: 10%;
+    float: left;
+  }
+  .vector1,.vector2,.vector3{
+    width: 300px;
+    height: 150px;
+  } 
+  .design-btn{
+    background: #1C6C91;
+    border-radius: 0;
+    font-family: Poppins;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-top: -10px;
+  }
+
+/* this is events section */
+
+  .Events-page{
+    width: 100%;
+    height: 430px;
+    background-image: url("../../Images/Rectangle.jpg");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+  }
+  .E-head{
+    font-family: Poppins;
+    margin-bottom: 6%;
+    font-size: 25px;
+    text-align: start;
+    color: white;
+  }
+  .section2{
+    margin-top: 80%;
+    float: right;
+    position: absolute;
+
+  }
+  .vector2{
+    margin-top: 1%;
+    float: right;
+  }
+  .events-content{
+    height: 420px;
+    position: absolute;
+    margin-top: 3.3%;
+  }
+  .Event-text{
+    width: 330px;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  .E-text{
+    text-align: start;
+    font-family: Poppins;
+    font-size: 12px;
+    color: white;
+  } 
+ 
+
+    /* this is wedding section */
+    .Wedding-page{
+      width: 100%;
+      height: 450px;
+    }
+    .vector3{
+      margin-top: 1%;
+      float: left;
+    }
+    .Product-page{
+      width: 100%;
+      height: 450px;
+      background-image: url("../../Images/Rectangle1.jpg");
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .fashion-page{
+    width: 100%;
+    height: 350px;
+  }
+  .fashion-content{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 3.3%;
+  }
+  .vector1{
+    margin-top: 1%;
+    float: left;
+  }
+  .fashion-text{
+    width: 330px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 10%;
+  }
+  .f-text{
+    text-align: end;
+    font-family: Poppins;
+    font-size: 12px;
+  } 
+  .f-head{
+    font-family: Poppins;
+    text-align: end;
+    margin-bottom: 6%;
+    font-size: 25px;
+  }
+  .section1{
+    margin-top: 10%;
+    float: left;
+  }
+  .vector1,.vector2,.vector3{
+    width: 300px;
+    height: 150px;
+  } 
+  .design-btn{
+    background: #1C6C91;
+    border-radius: 0;
+    font-family: Poppins;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-top: -10px;
+  }
+
+/* this is events section */
+
+  .Events-page{
+    width: 100%;
+    height: 350px;
+    background-image: url("../../Images/Rectangle.jpg");
+    background-size: cover;
+  }
+  .E-head{
+    font-family: Poppins;
+    margin-bottom: 6%;
+    font-size: 25px;
+    text-align: start;
+    color: white;
+  }
+  .section2{
+    margin-top: 10%;
+    float: right;
+  }
+  .vector2{
+    margin-top: 1%;
+    float: right;
+  }
+  .events-content{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 3.3%;
+  }
+  .Event-text{
+    width: 330px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  .E-text{
+    text-align: start;
+    font-family: Poppins;
+    font-size: 12px;
+    color: white;
+  } 
+ 
+
+    /* this is wedding section */
+    .Wedding-page{
+      width: 100%;
+      height: 350px;
+    }
+    .vector3{
+      margin-top: 1%;
+      float: left;
+    }
+    .Product-page{
+      width: 100%;
+      height: 350px;
+      background-image: url("../../Images/Rectangle1.jpg");
+      background-size: cover;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  .fashion-page{
+    width: 100%;
+    height: 450px;
+  }
+  .fashion-content{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 7.5%;
+  }
+  .vector1,.vector2,.vector3{
+    width: 400px;
+    height: 200px;
+  } 
+  .fashion-text{
+    width: 530px;
+    float: right;
+    margin-right: 1%;
+    margin-top: 5%;
+  }
+  .f-text{
+    text-align: end;
+    font-family: Poppins;
+    font-size: 16px;
+  } 
+  .section1{
+    margin-top: 5%;
+    float: left;
+  }
+  .design-btn{
+    font-size: 18px;
+  }
+  /* this is for events */
+
+  .Events-page{
+    width: 100%;
+    height: 450px;
+  }
+  .section2{
+    margin-top: 5%;
+    float: right;
+  }
+
+  .events-content{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 7.5%;
+  }
+  .Event-text{
+    width: 530px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 5%;
+  }
+  .E-text{
+    text-align: start;
+    font-family: Poppins;
+    font-size: 16px;
+  } 
+  .Wedding-page{
+    width: 100%;
+    height: 450px;
+  }
+  .vector3{
+    margin-top: 1%;
+    float: left;
+  }
+  .Product-page{
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fashion-page{
+    width: 100%;
+    height: 550px;
+  }
+  .fashion-content{
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 5.5%;
+  }
+  .vector1,.vector2,.vector3{
+    width: 525px;
+    height: 230px;
+  } 
+  .fashion-text{
+    width: 800px;
+    float: right;
+    margin-right: 1%;
+    margin-top: 4.2%;
+  }
+  .f-head,.E-head{
+    font-size: 38px;
+  }
+  .f-text{
+    text-align: end;
+    font-family: Poppins;
+    font-size: 20px;
+  } 
+  .section1{
+    margin-top: 5%;
+    float: left;
+  }
+  .design-btn{
+    font-size: 18px;
+  }
+  /* this is for events */
+
+  .Events-page{
+    width: 100%;
+    height: 550px;
+  }
+  .section2{
+    margin-top: 5%;
+    float: right;
+  }
+
+  .events-content{
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 5.5%;
+  }
+  .Event-text{
+    width: 800px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 4.2%;
+  }
+  .E-text{
+    text-align: start;
+    font-family: Poppins;
+    font-size: 20px;
+  } 
+
+  .Wedding-page{
+    width: 100%;
+    height: 550px;
+  }
+  .vector3{
+    margin-top: 1%;
+    float: left;
+  }
+  .Product-page{
+    width: 100%;
+    height: 550px;
+  }
+}
