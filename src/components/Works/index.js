@@ -213,11 +213,11 @@ class Works extends Component{
                         <div className="filter Event">
                             <img src={e5} />
                         </div>
-                        <div className=" filter video-player Video controls">
+                        {/* <div className=" filter video-player Video controls">
                             <video className='videoTag' autoPlay loop muted controls>
                                 <source src={sample1} type='video/mp4' />
                             </video>
-                        </div>
+                        </div> */}
                      
                     </div>
                        {/* Fourth column */}
