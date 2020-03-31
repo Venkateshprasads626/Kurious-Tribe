@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 import './works.css'
-
-import sample1 from '../../Video/sample1.mp4';
 import sample2 from '../../Video/sample2.mp4';
 
 import f1 from '../../Images/f1.jpg'
