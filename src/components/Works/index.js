@@ -48,6 +48,8 @@ import p12 from '../../Images/p12.png'
 import p13 from '../../Images/p13.png'
 
 
+
+
 class Works extends Component{
     componentDidMount = () =>{
         $(document).ready(function(){
@@ -85,6 +87,8 @@ class Works extends Component{
         lightbox.addEventListener('click', e => {
             lightbox.classList.remove('active')
         })
+
+ 
     }
 
     render() {
@@ -96,15 +100,15 @@ class Works extends Component{
                 <a href="#" data-filter="Fashion" class="button">Fashion Portfolio</a>
                 <a href="#" data-filter="Event" class="button">Events</a>
                 <a href="#" data-filter="Wedding" class="button">Wedding</a>
-                <a href="#" data-filter="Product" class="button">Product Shoots</a>
-                <a href="#" data-filter="Video" class="button">Video</a>
+                <a href="#" data-filter="Product" class="button product">Product Shoots</a>
+                <a href="#" data-filter="Video" class="button video">Video</a>
             </div>
-             <div id="fashion-portfolio">
+             <div id="fashion-portfolio" data-lightbox="mygallery">
                  {/* first column */}
                  <div className="row row34"> 
                      <div className="column">
                         <div className="filter Fashion">
-                            <img src={f1}  />
+                            <img src={f1} id="fashion" />
                         </div>
                        
                         <div className="filter Fashion" >
