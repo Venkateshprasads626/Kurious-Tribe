@@ -54,7 +54,7 @@ class Contact extends Component {
                                     <label for="exampleFormControlTextarea1">Additional Request or Message</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn8">Submit</button>
+                               <button type="btn" class="btn btn-primary btn8">Submit</button>
                                 </form>
                            </div>
                        </div>

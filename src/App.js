@@ -17,19 +17,19 @@ class App extends Component {
   componentDidMount = () => {
       setTimeout(function(){
         $('.loader_bg').fadeToggle();
-      }, 3000);
+      }, 5000);
   }
 
 
   render() {
     return(
       <div className="App" id="loader">
-          {/* <div className="loader_bg">
+          <div className="loader_bg">
                 <div className="loader"></div>
                 <div className="loader-text">
                   <p style={{fontFamily: "'Lobster', cursive"}}>Kurious Tribe</p>
                 </div>
-          </div> */}
+          </div>
           <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
