@@ -11,7 +11,8 @@ class About extends Component{
                 <Header />
                     <div id="page-content">
                       <Carousel />
-                      <div className="text-content">
+                      <div className="about-page">
+                      <div className="text-content wow zoomIn">
                         <h1 className="about-head">HELLO THERE !</h1>
                         <h3 className="about-head2">Every company has a story to tell and ours is no different.</h3>
                         <h3 className="about-head1">You may think why “Kurious Tribe”?  What's behind this name?</h3>
@@ -28,6 +29,7 @@ class About extends Component{
                         Your important days and special moments are the most precious things in the 
                         world, and we will help you cherish them and  keep them close to you forever.
                         </p>
+                      </div>
                       </div>
                     </div>
                 <Footer />

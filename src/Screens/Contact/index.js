@@ -15,7 +15,7 @@ class Contact extends Component {
                     <div id="page-content1">
                        <h1 style={{fontWeight: "bold"}} className="contact-head">Book Your Session</h1>
                        <div class="text-center">
-                            <button type="button" class="btn btn-primary">Get connected</button>
+                        <a href="https://calendly.com/kurious_tribe/15min" target= "_blank"><button type="button" class="btn btn-primary">Get connected</button></a>
                         </div>
                        <p className="contact-head1">Hi, Thank you so much for taking the time to contact us.</p>
                        <h3 style={{fontWeight: "bold", textAlign: "center", marginTop: "0%"}} >got questions ?</h3>

@@ -116,3 +116,16 @@ html,body{
     margin-top: 5%;
   }
 }
+
+
+/* animation */
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .15);
+}
+
+.cards{
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}

@@ -53,6 +53,10 @@
         margin-top: 23px;
         padding: 9px 10px !important;
       }
+      .navbar li{
+        text-align: center;
+        margin-top: 5%;
+      }
   .kuriologo{
     width: 100px;
     height: 100px;

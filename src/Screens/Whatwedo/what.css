@@ -74,7 +74,7 @@ html,body{
   .Events-page{
     width: 100%;
     height: 430px;
-    background-image: url("../../Images/Rectangle.jpg");
+    background-image: url("../../Images/Rectangle.png");
     background-repeat: no-repeat;
     background-repeat: repeat-y;
   }
@@ -189,7 +189,7 @@ html,body{
   .Events-page{
     width: 100%;
     height: 350px;
-    background-image: url("../../Images/Rectangle.jpg");
+    background-image: url("../../Images/Rectangle.png");
     background-size: cover;
   }
   .E-head{
@@ -411,4 +411,17 @@ html,body{
     width: 100%;
     height: 550px;
   }
+}
+
+/* animation */
+.fashion-content {
+  animation-delay: 2s;
+}
+
+.events-content {
+  animation-delay: 3s;
+}
+
+.wedding-content, .product-content {
+  animation-delay: 1s;
 }

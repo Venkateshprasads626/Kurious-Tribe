@@ -24,12 +24,12 @@ class App extends Component {
   render() {
     return(
       <div className="App" id="loader">
-          <div className="loader_bg">
+          {/* <div className="loader_bg">
                 <div className="loader"></div>
                 <div className="loader-text">
                   <p style={{fontFamily: "'Lobster', cursive"}}>Kurious Tribe</p>
                 </div>
-          </div>
+          </div> */}
           <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />

@@ -22,7 +22,7 @@ class Whatwedo extends Component{
                             <img src={banner} className="banner1" alt="" />
                         </div>
                         <div className="fashion-page">
-                            <div className="fashion-content">
+                            <div className="fashion-content wow fadeInLeft">
                                 <div className="section1">
                                     <img src={vector1} className="align-middle vector1" alt="" />
                                 </div>
@@ -38,7 +38,7 @@ class Whatwedo extends Component{
                             </div>
                         </div>
                         <div className="Events-page">
-                            <div className="events-content">
+                            <div className="events-content wow fadeInRight">
                             <div className="section2">
                                 <img src={vector2} className="vector2" alt="" />
                             </div>
@@ -53,7 +53,7 @@ class Whatwedo extends Component{
                             </div>
                         </div>
                         <div className="Wedding-page">
-                            <div className="fashion-content">
+                            <div className="fashion-content wedding-content wow fadeInLeft">
                                 <div className="section1">
                                     <img src={vector3} className="vector3" alt="" />
                                 </div>
@@ -69,7 +69,7 @@ class Whatwedo extends Component{
                         </div>
 
                         <div className="Product-page">
-                        <div className="events-content">
+                        <div className="events-content product-content wow fadeInRight">
                             <div className="section2">
                                 <img src={vector4} className="vector2" alt="" />
                             </div>

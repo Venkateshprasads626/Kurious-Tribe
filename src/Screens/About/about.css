@@ -42,12 +42,18 @@ html,body{
 
 
 @media screen and (min-width: 768px) {
+  .about-page{
+    width: 100%;
+    height: 500px;
+    background-image: url("../../Images/Rectangle5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8%;
+  }
   .text-content{
     width: 700px;
     margin: 0 auto;
-    margin-bottom: 10%;
-    background-image: url("../../Images/Rectangle5.png");
-    background-repeat: no-repeat;
+    margin-top: 5%;
   }
   .about-head{
     font-family: Poppins;
@@ -71,10 +77,18 @@ html,body{
 }
 
 @media screen and (min-width: 1200px) {
+  .about-page{
+    width: 100%;
+    height: 550px;
+ 
+  }
   .text-content{
     width: 1200px;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   .about-head{
     font-family: Poppins;
@@ -96,4 +110,10 @@ html,body{
     font-family: Poppins;
     font-size: 20px;
   }
+}
+
+.text-content {
+  animation-duration: 3s;
+  animation-delay: 2s;
+
 }
