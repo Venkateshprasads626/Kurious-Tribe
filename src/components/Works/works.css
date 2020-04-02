@@ -167,13 +167,13 @@
     #fashion-portfolio{
         margin-bottom: 10%;
     }
-    .video-player{
+     .video-box{
         width: 300px;
         height: 300px;
         margin-top: 100%;
         margin-left: -105%;
     }
-}
+} 
 
 @media screen and (max-width: 375px) {
     .navigation a{

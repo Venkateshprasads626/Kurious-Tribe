@@ -176,7 +176,7 @@ class Works extends Component{
                         <div className="filter Product">
                             <img src={p12} />
                         </div>
-                        <div className=" filter video-player Video controls">
+                        <div className=" filter video-player Video controls video-box">
                             <video className='videoTag' autoPlay loop muted controls>
                                 <source src={sample2} type='video/mp4' />
                             </video>
