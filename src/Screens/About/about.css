@@ -15,13 +15,25 @@ html,body{
 }
 
 @media screen and (max-width: 560px) {
+  .about-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../Images/Rectangle5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 0;
+  }
   .text-content{
     margin: 0 auto;
     margin-bottom: 10%;
+    margin-top: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   .about-head{
-    font-family: Poppins;
-    letter-spacing: 5px;
+    font-family: 'Alex Brush', cursive;
     font-weight: bold;
     font-size: 25px;
   }
@@ -44,22 +56,23 @@ html,body{
 @media screen and (min-width: 768px) {
   .about-page{
     width: 100%;
-    height: 500px;
+    height: 100vh;
     background-image: url("../../Images/Rectangle5.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 8%;
     margin-left: 0;
   }
   .text-content{
     width: 700px;
     margin: 0 auto;
-    margin-top: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20%;
   }
   .about-head{
-    font-family: Poppins;
-    letter-spacing: 5px;
+    font-family: 'Alex Brush', cursive;
     font-weight: bold;
     font-size: 25px;
   }
@@ -81,22 +94,20 @@ html,body{
 @media screen and (min-width: 1200px) {
   .about-page{
     width: 100%;
-    height: 550px;
+    height: 100vh;
     margin-left: 0px;
   }
   .text-content{
     width: 1200px;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 12%;
     position: absolute;
     left: 0;
     right: 0;
   }
   .about-head{
-    font-family: Poppins;
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-size: 30px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
   }
   .about-head2{
     font-family: Poppins;

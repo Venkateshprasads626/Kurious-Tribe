@@ -20,7 +20,40 @@ html,body{
   position: absolute;
   margin-left: 13%;
 }
-
+.whatsapp{
+  width: 300px;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 8px;
+}
+.whatsapp-text{
+  font-family: Poppins;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: black;
+}
+.fa-arrow-right{
+  margin-left: 230px;
+  position: absolute;
+  margin-top: -38px;
+  color: black;
+}
+.whatsapp-image{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -55px;
+}
 
 @media screen and (max-width: 560px) {
   form{
@@ -42,6 +75,7 @@ html,body{
   .line1{
     background-color: white;
     width: 80%;
+    margin-top: 100px;
   }
   .contact-head2{
     color: white;
@@ -49,6 +83,7 @@ html,body{
     margin-top: 5%;
     margin-left: 8%;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -72,6 +107,7 @@ html,body{
   .line1{
     background-color: white;
     width: 80%;
+    margin-top: 100px;
   }
   .contact-head2{
     color: white;

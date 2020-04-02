@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './contact.css'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-
+import whatsapp from '../../Images/whatsapp.png'
 
 
 class Contact extends Component {
@@ -19,7 +19,12 @@ class Contact extends Component {
                         </div>
                        <p className="contact-head1">Hi, Thank you so much for taking the time to contact us.</p>
                        <h3 style={{fontWeight: "bold", textAlign: "center", marginTop: "0%"}} >got questions ?</h3>
-                       <p style={{textAlign: "center", fontSize: "18px"}}>No problem check out our FAQ page for the answers.</p>
+                       <div className="whatsapp">
+                            <a href="https://wa.me/919632005098" target="_blank">
+                                <p className="whatsapp-text">To place Order/Queries</p><i className="fa fa-arrow-right" aria-hidden="true"></i>
+                                <img src={whatsapp} className="whatsapp-image" />
+                            </a>
+                        </div>
                        <hr className="line1"></hr>
                        <div>
                            <div className="form-box">

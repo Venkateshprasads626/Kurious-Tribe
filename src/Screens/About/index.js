@@ -13,7 +13,7 @@ class About extends Component{
                       <Carousel />
                       <div className="about-page">
                       <div className="text-content wow zoomIn">
-                        <h1 className="about-head">HELLO THERE !</h1>
+                        <h1 className="about-head">Hello There !</h1>
                         <h3 className="about-head2">Every company has a story to tell and ours is no different.</h3>
                         <h3 className="about-head1">You may think why “Kurious Tribe”?  What's behind this name?</h3>
                         <p className="aboutus-text">
