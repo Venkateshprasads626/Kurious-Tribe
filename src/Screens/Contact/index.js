@@ -21,7 +21,7 @@ class Contact extends Component {
                        <h3 style={{fontWeight: "bold", textAlign: "center", marginTop: "0%"}} >got questions ?</h3>
                        <div className="whatsapp">
                             <a href="https://wa.me/919632005098" target="_blank">
-                                <p className="whatsapp-text">To place Order/Queries</p><i className="fa fa-arrow-right" aria-hidden="true"></i>
+                                <p className="whatsapp-text">Ping us on Whatsapp</p><i className="fa fa-arrow-right" aria-hidden="true"></i>
                                 <img src={whatsapp} className="whatsapp-image" />
                             </a>
                         </div>
