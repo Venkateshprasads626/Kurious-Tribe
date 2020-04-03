@@ -38,7 +38,7 @@ const Footer = props =>(
        
         <div className="col-md-3 mt-md-0 mt-3 social-links">
         <h4 className="h4-footer2">Follow us</h4>
-          <a  href="#" target="_blank"><img src={social1} className="social11 " /></a>
+          <a  href="https://www.facebook.com/KuriousTribeProductions/" target="_blank"><img src={social1} className="social11 " /></a>
           <a href="https://www.instagram.com/kurioustribe_productions/?igshid=99yfnl02csri" target="_blank"><img src={social3}  className="social33" /></a> 
         </div>
       </div>

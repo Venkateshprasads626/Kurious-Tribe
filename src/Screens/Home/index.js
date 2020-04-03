@@ -27,7 +27,7 @@ class Home extends Component{
                             <h1 className="wow bounce" style={{fontWeight: "bold"}}>Why us</h1>
                             <p  className="wow bounceInDown">We are a Bangalore based team of certified and self learnt and experienced professionals.
                                 Since we are a passion driven and privately run company, we have the time to make your photograpgic
-                                experience a lot more personal. Our guests are made to fell like friends and come back to us again.
+                                experience a lot more personal. Our guests are made to feel like friends and come back to us again.
                             </p>
                         </div>
                         </div>
