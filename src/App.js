@@ -7,7 +7,6 @@ import Gallery from './Screens/Gallery'
 import Contact from './Screens/Contact'
 import About from './Screens/About'
 import Whatwedo from './Screens/Whatwedo'
-import { CubeGrid } from 'styled-loaders-react'
 import $ from 'jquery'
 
 
@@ -24,12 +23,12 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-                {/* <div className="loader_bg">
+                <div className="loader_bg">
                 <div className="loader"></div>
                 <div className="loader-text">
                   <p style={{fontFamily: "'Lobster', cursive"}}>Kurious Tribe</p>
                 </div>
-          </div> */}
+          </div>
           <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />

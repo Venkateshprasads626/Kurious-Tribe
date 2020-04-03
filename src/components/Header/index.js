@@ -31,16 +31,16 @@ componentDidMount = () =>{
                 <Link  to="/">HOME</Link>
             </li>
             <li>
-                <Link to="About">ABOUT US</Link>
+                <Link to="/About">ABOUT US</Link>
             </li>
             <li>
-                <Link to="Whatwedo">WHAT WE DO ?</Link>
+                <Link to="/Whatwedo">WHAT WE DO ?</Link>
             </li>
             <li>
-                <Link to="Gallery">GALLERY</Link>
+                <Link to="/Gallery">GALLERY</Link>
             </li>
             <li>
-                <Link to="Contact">CONTACT</Link>
+                <Link to="/Contact">CONTACT</Link>
             </li>
 
    
