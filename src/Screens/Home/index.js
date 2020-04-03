@@ -69,7 +69,7 @@ class Home extends Component{
                             </div>
                         </div>
                         <div className="instagram-section">
-                        {/* <div class="elfsight-app-1719d296-edb4-4d32-bb88-e2713177ca51"></div> */}
+                             <div class="elfsight-app-8c1e8bd9-9862-4f50-a372-7c0976e3f3ef"></div>
                         </div>
 
                     </div>

@@ -173,6 +173,12 @@
         margin-top: 100%;
         margin-left: -105%;
     }
+    .video-box2{
+        width: 300px;
+        height: 300px;
+        margin-top: 380%;
+        margin-left: -215%;
+    }
 } 
 
 @media screen and (max-width: 375px) {
@@ -201,11 +207,17 @@
         margin-left: 58%;
         justify-content: center;
     }
-    .video-player{
+    .video-box{
         width: 300px;
         height: 300px;
         margin-top: 100%;
         margin-left: -140%;
+    }
+    .video-box2{
+        width: 300px;
+        height: 300px;
+        margin-top: 410%;
+        margin-left: -250%;
     }
 }
 .row34 {

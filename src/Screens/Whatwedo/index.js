@@ -63,7 +63,7 @@ class Whatwedo extends Component{
                                     Whether it’s your special day or you’re just celebrating along with everybody else, 
                                     weddings are happy and wonderful events. We are there to cover it
                                     </p>
-                                 <a href="/Gallery"><button type="button" class="btn design-btn">OUR PORTFOLIO</button></a>
+                                 <Link to="/Gallery"><button type="button" class="btn design-btn">OUR PORTFOLIO</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ class Whatwedo extends Component{
                                     An appealing image of your product integrated along with a brief & sharp features and
                                      descriptions is actually the essential elements. We are the go to people for it .
                                     </p>
-                                    <a href="/Gallery"><button type="button" class="btn design-btn" style={{float: "left"}}>OUR PORTFOLIO</button></a>
+                                    <Link to="/Gallery"><button type="button" class="btn design-btn" style={{float: "left"}}>OUR PORTFOLIO</button></Link>
                                 </div>
                             </div>
                         </div>

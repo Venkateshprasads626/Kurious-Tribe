@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import $ from 'jquery'
 import './works.css'
 import sample2 from '../../Video/sample2.mp4';
+import sample3 from '../../Video/sample3.mp4';
 
 import f1 from '../../Images/f1.jpg'
 import f2 from '../../Images/f2.jpg'
@@ -215,11 +216,11 @@ class Works extends Component{
                         <div className="filter Event">
                             <img src={e5} />
                         </div>
-                        {/* <div className=" filter video-player Video controls">
+                        <div className=" filter video-player Video controls video-box2">
                             <video className='videoTag' autoPlay loop muted controls>
-                                <source src={sample1} type='video/mp4' />
+                                <source src={sample3} type='video/mp4' />
                             </video>
-                        </div> */}
+                        </div>
                      
                     </div>
                        {/* Fourth column */}
