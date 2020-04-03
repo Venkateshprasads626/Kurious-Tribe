@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route, BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './Screens/Home'
@@ -30,6 +30,7 @@ class App extends Component {
                 </div>
           </div>
           <HashRouter>
+            <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Gallery" component={Gallery} />
@@ -39,6 +40,7 @@ class App extends Component {
       
 
           </Switch>
+          </BrowserRouter>
         </HashRouter>
 
 
