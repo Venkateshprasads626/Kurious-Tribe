@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './header.css'
 import kuriologo from '../../Images/kuriologo.svg'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import $ from 'jquery'
 
 class Header extends Component{
@@ -28,19 +28,19 @@ componentDidMount = () =>{
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className=" navbar-nav ml-auto">
             <li className="active">
-                <Link  to="/">HOME</Link>
+                <NavLink  to="/">HOME</NavLink>
             </li>
             <li>
-                <Link to="/About">ABOUT US</Link>
+                <NavLink to="/About">ABOUT US</NavLink>
             </li>
             <li>
-                <Link to="/Whatwedo">WHAT WE DO ?</Link>
+                <NavLink to="/Whatwedo">WHAT WE DO ?</NavLink>
             </li>
             <li>
-                <Link to="/Gallery">GALLERY</Link>
+                <NavLink to="/Gallery">GALLERY</NavLink>
             </li>
             <li>
-                <Link to="/Contact">CONTACT</Link>
+                <NavLink to="/Contact">CONTACT</NavLink>
             </li>
 
    
