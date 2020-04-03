@@ -37,14 +37,15 @@ html,body{
 .whatsapp-text{
   font-family: Poppins;
   font-size: 18px;
-  margin-left: 10px;
-  margin-top: 20px;
+  margin-left: 12px;
+  margin-top: 17px;
   color: black;
+  position: absolute;
 }
 .fa-arrow-right{
-  margin-left: 230px;
+  margin-left: 220px;
   position: absolute;
-  margin-top: -38px;
+  margin-top: 22px;
   color: black;
 }
 .whatsapp-image{
@@ -52,7 +53,7 @@ html,body{
   height: 50px;
   position: absolute;
   margin-left: 250px;
-  margin-top: -55px;
+  margin-top: 4px;
 }
 
 @media screen and (max-width: 560px) {
