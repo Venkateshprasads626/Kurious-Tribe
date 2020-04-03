@@ -97,12 +97,12 @@ class Works extends Component{
             <div className="latest-work">
             <h1 className="work-text1">Latest <span className="work-text2">Works</span></h1>
             <div className="navigation">
-                <a href="#" data-filter="all" class="button active">All</a>
-                <a href="#" data-filter="Fashion" class="button">Fashion Portfolio</a>
-                <a href="#" data-filter="Event" class="button">Events</a>
-                <a href="#" data-filter="Wedding" class="button">Wedding</a>
-                <a href="#" data-filter="Product" class="button product">Product Shoots</a>
-                <a href="#" data-filter="Video" class="button video">Video</a>
+                <a  data-filter="all" class="button active">All</a>
+                <a  data-filter="Fashion" class="button">Fashion Portfolio</a>
+                <a  data-filter="Event" class="button">Events</a>
+                <a  data-filter="Wedding" class="button">Wedding</a>
+                <a  data-filter="Product" class="button product">Product Shoots</a>
+                <a  data-filter="Video" class="button video">Video</a>
             </div>
              <div id="fashion-portfolio" data-lightbox="mygallery">
                  {/* first column */}

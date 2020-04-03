@@ -30,7 +30,7 @@ class App extends Component {
                 </div>
           </div>
           <HashRouter>
-            <BrowserRouter>
+          
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Gallery" component={Gallery} />
@@ -40,7 +40,7 @@ class App extends Component {
       
 
           </Switch>
-          </BrowserRouter>
+          
         </HashRouter>
 
 
